@@ -1,0 +1,165 @@
+.tour {
+    padding: 63px 0 180px 0;
+}
+
+.tour__inner {
+    background: #F1F1F1;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #171717;
+    display: flex;
+    border-radius: 12px;
+}
+
+.tour__title {
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 600;
+    padding: 34px 10px 50px 34px;
+
+}
+
+.tour__info-img {
+    display: flex;
+    flex-direction: column;
+}
+
+.tour__imges {
+    display: flex;
+    margin: 0 0 33px 33px;
+    max-width: 476px;
+    max-height: 358px;
+}
+
+.tour__img-main {
+    min-width: 405px;
+    min-height: 358px;
+}
+
+.tour__img {
+    width: 100%;
+    height: 100%;
+}
+
+.tour__img-show {
+    display: block;
+}
+
+.tour__img-hide {
+    display: none;
+}
+
+.column__img {
+    display: block;
+    min-width: 68px;
+    max-width: 67px;
+    min-height: 48px;
+    max-height: 49px;
+    opacity: 0.6;
+}
+
+.column__img:hover {
+    opacity: 1;
+}
+
+.column__img-active {
+    opacity: 1;
+}
+
+.tour__img-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.tour__info {
+    display: flex;
+    flex-direction: column;
+    padding: 133px 80px 25px 70px;
+}
+
+.tour__info-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.tour__info-text p {
+    padding-bottom: 20px;
+}
+
+.tour__info-text p:last-child {
+    padding-bottom: 65px;
+}
+
+.tour__info-content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 501px;
+    gap: 30px 70px;
+    font-size: 22px;
+    line-height: 29px;
+    word-wrap: break-word;
+}
+
+.tour__info-content div:nth-child(odd) {
+    min-width: 130px;
+    max-width: 140px;
+}
+
+.tour__info-content span {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.tours__date-info {
+    padding: 0;
+    min-width: 130px;
+    max-width: 249px;
+}
+
+.tours__place-info {
+    padding: 0;
+    min-width: 130px;
+    max-width: 249px;
+}
+
+.tours__counts {
+    padding: 0;
+    min-width: 130px;
+    max-width: 249px;
+}
+
+.tours__duration-info {
+    padding: 0;
+    min-width: 130px;
+    max-width: 249px;
+}
+
+.tours__price {
+    font-size: 27px;
+    line-height: 36px;
+    padding: 0 0 20px 37px;
+    max-width: 405px;
+    word-wrap: break-word;
+}
+
+.tours__price span {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.tour__btn {
+    max-width: 405px;
+    margin: 0 37px 46px 37px;
+    padding: 15px 103px;
+    border-radius: 16px;
+}
+
+.tour__btn a {
+    font-size: 18px;
+    line-height: 24px;
+}

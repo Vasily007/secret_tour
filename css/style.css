@@ -1,0 +1,35 @@
+/*Кодировка*/
+@charset "UTF-8";
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+/*Стили*/
+@import url('../css/blocks/normalize.css');
+@import url('../css/blocks/header.css');
+@import url('../css/blocks/main.css');
+@import url('../css/blocks/tour.css');
+@import url('../css/blocks/footer.css');
+
+
+body {
+    background: url('../img/back.jpg') no-repeat 50% 50% fixed;
+    -webkit-background-size: 200% 200%;
+    -moz-background-size: 200% 200%;
+    -o-background-size: 200% 200%;
+    background-size: 200% 200%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
