@@ -12,11 +12,7 @@
 }
 
 .tour__title {
-    font-size: 36px;
-    line-height: 49px;
-    font-weight: 600;
     padding: 34px 10px 50px 34px;
-
 }
 
 .tour__info-img {
@@ -80,18 +76,13 @@
     padding: 133px 80px 25px 70px;
 }
 
-.tour__info-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-}
-
 .tour__info-text p {
     padding-bottom: 20px;
 }
 
 .tour__info-text p:last-child {
-    padding-bottom: 65px;
+    padding: 0;
+    margin-bottom: 65px;
 }
 
 .tour__info-content {
@@ -161,5 +152,5 @@
 
 .tour__btn a {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 25px;
 }

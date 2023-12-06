@@ -1,0 +1,80 @@
+.guide {
+    padding: 63px 0 355px;
+}
+.guides {
+    padding-top: 46px;
+}
+.guides:first-child {
+    padding-top: 63px;
+}
+.guides:last-child {
+    padding: 46px 0 105px;
+}
+
+.guide__inner {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #F1F1F1;
+    color: #171717;
+    border-radius: 12px;
+    display: flex;;
+}
+
+.guide__title {
+    padding: 34px 10px 38px 34px;
+}
+
+.guide__img {
+    display: block;
+    max-width: 432px;
+    min-width: 431px;
+    max-height: 288px;
+    min-height: 287px;
+    margin: 0 0 100px 34px;
+}
+
+.guide__info-content {
+    padding: 120px 80px 0px 113px;
+}
+
+.guide__info-text {
+    margin: 0 0 22px 0;
+}
+
+.guide__info-title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 27px;
+}
+
+.guide__info-btns {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 522px;
+    margin: 0 0 46px 113px;
+}
+
+.guide__info-btn {
+    background-color: #E35200;
+    border-radius: 16px;
+    word-wrap: break-word;
+}
+.guide__info-btn:active {
+    background-color: #c94800;
+}
+
+.guide__info-btn_first {
+    max-width: 200px;
+    padding: 16px 36px;
+}
+
+.guide__info-btn_second {
+    max-width: 310px;
+    padding: 16px 42px;
+}
+
+.guide__link {
+    line-height: 22px;
+}

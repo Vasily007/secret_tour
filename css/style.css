@@ -5,8 +5,10 @@
 /*Стили*/
 @import url('../css/blocks/normalize.css');
 @import url('../css/blocks/header.css');
-@import url('../css/blocks/main.css');
+@import url('../css/blocks/tours.css');
 @import url('../css/blocks/tour.css');
+@import url('../css/blocks/guide.css');
+@import url('../css/blocks/reservation.css');
 @import url('../css/blocks/footer.css');
 
 
@@ -27,9 +29,39 @@ body {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+}
+
+.main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 0 auto;
 }
 
 .container {
     max-width: 1160px;
     margin: 0 auto;
+}
+
+.title {
+    font-family: 'Manrope', sans-serif;
+    font-size: 36px;
+    line-height: 49px;
+    font-weight: 600;
+    color: #171717;
+}
+
+.text {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #171717;
+}
+
+.btn {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    color: #fff;
 }

@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     padding: 37px 0 37px;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
@@ -47,7 +47,7 @@
 
 .sub-menu__link {
     display: inline-block;
-    min-width: 100%;
+    width: 100%;
     color: #FFFFFF;
 }
 
@@ -86,7 +86,7 @@
     position: absolute;
     left: 65px;
     top: 22px;
-    width: 100%;
+    max-width: 100%;
 }
 
 

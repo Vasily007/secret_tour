@@ -1,0 +1,84 @@
+.reservation {
+ padding: 63px 0 466px 0;
+}
+
+.reservation__form {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    max-width: 616px;
+    min-height: 400px;
+}
+
+.reservation__form_success {
+    min-height: 315px;
+}
+
+.title__reservation {
+    padding: 34px 74px 44px 34px;
+    word-wrap: break-word;
+}
+
+.title__reservation_success {
+    padding: 34px 68px 56px 34px;
+    line-height: 43px !important;
+    word-wrap: break-word;
+}
+
+.reservation__form-input {
+    display: inline-block;
+    min-width: 550px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background-color: #c3c3c3;
+    border-radius: 16px;
+    padding: 16px 23px;
+    margin: 0 32px 14px 34px;
+}
+
+.reservation__form-input_phone {
+    margin-bottom: 9px;
+}
+
+.reservation__form-input::placeholder {
+    color: #FFFFFF;
+}
+
+.reservation__form-subtitle {
+    font-size: 16px;
+    line-height: 22px;
+    color: #c3c3c3;
+    margin: 0 32px 30px 57px;
+    word-wrap: break-word;
+}
+
+.reservation__form-btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #E35200;
+    color: #fff;
+    border-radius: 14px;
+    padding: 15px 30px;
+    min-width: 550px;
+    margin: 0 32px 46px 34px;
+}
+
+.reservation__form-btn:hover {
+    background-color: #F46514;
+}
+
+.reservation__form-btn:active {
+    background-color: #c94800;
+}
+
+.reservation__form-link {
+    color: #fff;
+}
+
+.reservation__form-btn_success {
+    cursor: default;
+}

@@ -1,13 +1,5 @@
-.main {
-    -webkit-box-flex: 1;
-    -ms-flex: 1 0 auto;
-    flex: 1 0 auto;
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
-}
-
 .tours {
     padding-bottom: 206px;
-
 }
 
 .tours__name {
@@ -31,7 +23,7 @@
     min-height: 540px;
     position: relative;
     overflow: hidden;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 22px;
@@ -151,9 +143,9 @@
     border-radius: 0 0 12px 12px;
 }
 
-.title {
+.main-title {
     padding: 123px 0 64px;
-    font-family: 'Manrope';
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     font-size: 42px;
     line-height: 57px;
