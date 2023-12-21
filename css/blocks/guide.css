@@ -18,7 +18,17 @@
     background-color: #F1F1F1;
     color: #171717;
     border-radius: 12px;
-    display: flex;;
+    display: flex;
+
+    @media(max-width: 880px) {
+        flex-direction: column;
+    }
+    @media(max-width: 530px) {
+        max-width: 400px;
+    }
+    @media(max-width: 400px) {
+        max-width: 350px;
+    }
 }
 
 .guide__title {
@@ -32,10 +42,32 @@
     max-height: 288px;
     min-height: 287px;
     margin: 0 0 100px 34px;
+
+    @media(max-width: 880px) {
+        margin-bottom: 0;
+    }
+    @media(max-width: 530px) {
+        max-width: 300px;
+        min-width: 299px;
+        max-height: 250px;
+        min-height: 249px;
+    }
+    @media(max-width: 400px) {
+        max-width: 250px;
+        min-width: 249px;
+        max-height: 250px;
+        min-height: 249px;
+    }
 }
 
 .guide__info-content {
     padding: 120px 80px 0px 113px;
+    @media(max-width: 1140px) {
+        padding: 120px 40px 0px 40px;
+    }
+    @media(max-width: 880px) {
+        padding: 30px 40px 0px 36px;
+    }
 }
 
 .guide__info-text {
@@ -49,17 +81,22 @@
 }
 
 .guide__info-btns {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     max-width: 522px;
-    margin: 0 0 46px 113px;
+    margin: 0 0 36px 113px;
+
+    @media(max-width: 1140px) {
+        margin-left: 34px;
+    }
+    @media(max-width: 880px) {
+        padding-right: 15px;
+    }
 }
 
 .guide__info-btn {
     background-color: #E35200;
     border-radius: 16px;
     word-wrap: break-word;
+    display: inline-block;
 }
 .guide__info-btn:active {
     background-color: #c94800;
@@ -68,11 +105,18 @@
 .guide__info-btn_first {
     max-width: 200px;
     padding: 16px 36px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .guide__info-btn_second {
     max-width: 310px;
     padding: 16px 42px;
+
+    @media(max-width: 400px) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 }
 
 .guide__link {

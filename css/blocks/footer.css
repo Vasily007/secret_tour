@@ -15,10 +15,19 @@
     justify-content: space-between;
     padding-bottom: 130px;
     padding: 50px 70px 130px;
+
+    @media(max-width: 800px) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 .footer__content-wrap {
     display: flex;
+
+    @media(max-width: 800px) {
+        margin-top: 30px;
+    }
 }
 
 .footer-menu__list {
@@ -28,7 +37,11 @@
     flex-direction: column;
     max-width: 150px;
     word-wrap: break-word;
-    margin-right: 123px;   
+    margin-right: 123px;
+    
+    @media(max-width: 400px) {
+        margin-right: 40px;
+    }
 }
 .footer-menu__list:last-child {
     margin: 0;
@@ -59,6 +72,11 @@
 .footer__logo {
     font-size: 30px;
     line-height: 41px;
+    text-align: center;
+
+    @media(max-width: 400px) {
+        font-size: 21px;
+    }
 }
 
 .footer__politics {
