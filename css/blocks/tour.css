@@ -230,24 +230,38 @@
     text-align: left;
 }
 
-.tour__btn {
+.tour__btn-item {
     max-width: 405px;
     margin: 0 37px 46px 37px;
+
+    @media(max-width: 460px) {
+        margin-bottom: 0;
+    }
+}
+
+.tour__btn {
     padding: 15px 103px;
     border-radius: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+    background-color: #E35200;
+    word-wrap: break-word;
+    display: block;
+    transition: background-color 0.2s ease-in;
 
     @media(max-width: 460px) {
         padding-left: 20px;
         padding-right: 20px;
         margin-bottom: 30px;
+        font-size: 15px;
     }
 }
 
-.tour__btn a {
-    font-size: 18px;
-    line-height: 25px;
-
-    @media(max-width: 460px) {
-        font-size: 15px;
-    }
+.tour__btn:hover {
+    background-color: #F46514;
+}
+.tour__btn:active {
+    background-color: #C94800;
 }

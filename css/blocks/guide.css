@@ -83,6 +83,8 @@
 .guide__info-btns {
     max-width: 522px;
     margin: 0 0 36px 113px;
+    display: flex;
+    justify-content: space-between;
 
     @media(max-width: 1140px) {
         margin-left: 34px;
@@ -92,25 +94,19 @@
     }
 }
 
-.guide__info-btn {
-    background-color: #E35200;
-    border-radius: 16px;
-    word-wrap: break-word;
-    display: inline-block;
-}
-.guide__info-btn:active {
-    background-color: #c94800;
-}
-
 .guide__info-btn_first {
     max-width: 200px;
-    padding: 16px 36px;
-    margin-right: 10px;
-    margin-bottom: 10px;
 }
 
 .guide__info-btn_second {
     max-width: 310px;
+}
+
+.guide__link-first {
+    padding: 16px 36px;
+}
+
+.guide__link-second {
     padding: 16px 42px;
 
     @media(max-width: 400px) {
@@ -120,5 +116,17 @@
 }
 
 .guide__link {
+    background-color: #E35200;
+    border-radius: 16px;
     line-height: 22px;
+    word-wrap: break-word;
+    display: inline-block;
+    transition: background-color 0.2s ease-in;
+}
+
+.guide__link:hover {
+    background-color: #F46514;
+}
+.guide__link:active {
+    background-color: #c94800;
 }

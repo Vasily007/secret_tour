@@ -113,14 +113,6 @@
 }
 
 .reservation__form-btn {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 600;
-    text-align: center;
-    background-color: #E35200;
-    color: #fff;
-    border-radius: 14px;
-    padding: 15px 30px;
     min-width: 550px;
     margin: 0 32px 46px 34px;
 
@@ -143,16 +135,25 @@
     }
 }
 
-.reservation__form-btn:hover {
+.reservation__form-link {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #E35200;
+    color: #fff;
+    border-radius: 14px;
+    padding: 15px 30px;
+    transition: background-color 0.2s ease-in;
+    display: block;
+}
+
+.reservation__form-link:hover {
     background-color: #F46514;
 }
 
-.reservation__form-btn:active {
+.reservation__form-link:active {
     background-color: #c94800;
-}
-
-.reservation__form-link {
-    color: #fff;
 }
 
 .reservation__form-btn_success {
